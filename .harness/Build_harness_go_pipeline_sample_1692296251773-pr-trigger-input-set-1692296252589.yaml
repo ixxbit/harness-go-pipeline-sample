@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harness_go_pipeline_sample_1692296251773-pr-trigger-input-set
+  identifier: Build_harness_go_pipeline_sample_1692296251773prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_harness_go_pipeline_sample_1692296251773
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
